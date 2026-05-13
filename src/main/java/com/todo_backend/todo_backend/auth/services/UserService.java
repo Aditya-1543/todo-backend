@@ -4,10 +4,12 @@ import com.todo_backend.todo_backend.auth.dto.UserDto;
 import com.todo_backend.todo_backend.auth.entities.User;
 import com.todo_backend.todo_backend.auth.repositories.UserRepository;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Service
 public class UserService {
 
     // D-I Constructor Injection
